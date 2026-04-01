@@ -60,7 +60,7 @@ export function TradesSection() {
               key={name}
               className="group flex flex-col items-center rounded-2xl border border-white/20 bg-white px-3 py-5 shadow-[0_8px_32px_rgba(0,0,0,0.2)] transition-all duration-200 hover:-translate-y-1 hover:shadow-[0_16px_40px_rgba(0,0,0,0.28)] md:px-4 md:py-6"
             >
-              <div className="mb-3 flex h-[72px] w-[72px] items-center justify-center rounded-2xl bg-[var(--bg-light)] transition-colors group-hover:bg-[var(--bg-blue)] md:h-20 md:w-20">
+              <div className="mb-3 flex h-[72px] w-[72px] items-center justify-center rounded-2xl transition-colors md:h-20 md:w-20">
                 <Icon />
               </div>
               <div className="text-center text-[13px] font-semibold leading-snug text-[var(--navy)] md:text-sm">
