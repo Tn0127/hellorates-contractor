@@ -179,23 +179,19 @@ export function ApprovalEngine() {
     >
       <div className="hr-container">
         {/* Zone 1 — two column top */}
-        <div className="mb-10 grid grid-cols-1 items-end gap-6 lg:mb-12 lg:grid-cols-2 lg:gap-16">
-          <div>
-            <p className="hr-eyebrow">Why HelloRates Contractors Win More Jobs</p>
-            <h2 id="approval-engine-heading" className="hr-headline">
-              35+ Chances to Say Yes.
-              <br />
-              <span className="text-[var(--green)]">Zero Credit Impact.</span>
-            </h2>
-          </div>
-          <div className="pb-px">
-            <p className="hr-lead max-w-none border-l-[3px] border-[var(--green-bright)] pl-5">
-              Most programs give your customer one lender. One decision. When that answer is no, the job is gone. The{" "}
-              <strong className="font-semibold text-[var(--navy)]">HelloRates Approval Waterfall™ Technology</strong>{" "}
-              works for your customer automatically, checking 35+ lenders at once and returning the best offer in 60
-              seconds, on a single soft inquiry with no effect on their credit score.
-            </p>
-          </div>
+        <div className="mx-auto mb-12 max-w-3xl text-center">
+          <p className="hr-eyebrow">Why HelloRates Contractors Win More Jobs</p>
+          <h2 id="approval-engine-heading" className="hr-headline mb-4">
+            35+ Chances to Say Yes.
+            <br />
+            <span className="text-[var(--green)]">Zero Credit Impact.</span>
+          </h2>
+          <p className="hr-lead mx-auto max-w-2xl">
+            Most programs give your customer one lender. One decision. When that answer is no, the job is gone. The{" "}
+            <strong className="font-semibold text-[var(--navy)]">HelloRates Approval Waterfall™ Technology</strong>{" "}
+            works for your customer automatically, checking 35+ lenders at once and returning the best offer in 60
+            seconds, on a single soft inquiry with no effect on their credit score.
+          </p>
         </div>
 
         {/* Zone 2 — stat bar (typography + count-up aligned with By The Numbers) */}

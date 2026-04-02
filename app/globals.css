@@ -85,7 +85,25 @@
 /* Landing layout & surfaces — navy / blue / green palette unchanged */
 @layer components {
   .hr-container {
-    @apply mx-auto w-full max-w-[1400px] px-5 md:px-8 lg:px-10;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  @media (width >= 48rem) {
+    .hr-container {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+  @media (width >= 64rem) {
+    .hr-container {
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+    }
   }
   .hr-section {
     @apply py-16 md:py-24 lg:py-28;
