@@ -85,7 +85,7 @@
 /* Landing layout & surfaces — navy / blue / green palette unchanged */
 @layer components {
   .hr-container {
-    @apply mx-auto w-full max-w-[1200px] px-5 md:px-8 lg:px-10;
+    @apply mx-auto w-full max-w-[1400px] px-5 md:px-8 lg:px-10;
   }
   .hr-section {
     @apply py-16 md:py-24 lg:py-28;
